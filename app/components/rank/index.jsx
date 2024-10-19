@@ -13,7 +13,7 @@ function Rank() {
         <>
           <GlowCard identifier="streak">
             <Image
-              src={`https://github-readme-streak-stats.herokuapp.com/?user=${userData.githubUser}&theme=algolia&hide_border=true`}
+              src={`https://github-readme-streak-stats.herokuapp.com/?user=parves2023&theme=algolia&hide_border=true`}
               width={1080}
               height={520}
               alt="github streak"
@@ -22,7 +22,7 @@ function Rank() {
           </GlowCard>
           <GlowCard identifier="productive-time">
             <Image
-              src={`http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=${userData.githubUser}&theme=algolia&utcOffset=${userData.timezone}`}
+              src={`http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=parves2023&theme=algolia&utcOffset=${userData.timezone}`}
               width={1080}
               height={560}
               alt="github productive-time"
@@ -33,14 +33,14 @@ function Rank() {
 
         <>
           <Image
-            src={`https://stardev.io/developers/${userData.githubUser}/badge/languages/global.svg`}
+            src={`https://stardev.io/developers/parves2023/badge/languages/global.svg`}
             width={1080}
             height={520}
             alt="github global"
             className="rounded-lg"
           />
           <Image
-            src={`https://stardev.io/developers/${userData.githubUser}/badge/languages/locality.svg`}
+            src={`https://stardev.io/developers/parves2023/badge/languages/locality.svg`}
             width={1080}
             height={520}
             alt="github locality"
