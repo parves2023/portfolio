@@ -50,5 +50,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
   return {
     title: `Anamul Hauqe`,
     description: profile.description,
+    image: 'https://drive.google.com/file/d/1E4F3po8iJFQqsVB7b0yC_OdnJruGF-5t/view'
   };
+  
 };
