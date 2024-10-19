@@ -99,19 +99,19 @@ function HeroSection({ profile }) {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-green-400">{profile.name}</span>
+                <span className="text-green-400">{profile.name? profile.name: "Anamul Hauqe"}</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">company:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-green-400">{profile.company}</span>
+                <span className="text-green-400">{profile.company ? profile.company: "Programming Hero"}</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">location:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-green-400">{profile.location}</span>
+                <span className="text-green-400">{profile.location? profile.location : "Dhaka Bangladesh"}</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div>
@@ -147,7 +147,7 @@ function HeroSection({ profile }) {
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hireable:</span>
-                <span className="text-orange-400">{profile?.hireable.toString()}</span>
+                <span className="text-orange-400">{profile.hireable? profile.hireable : "Yes"}</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div><span className="text-gray-400">{`};`}</span></div>
