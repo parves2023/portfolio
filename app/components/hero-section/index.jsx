@@ -49,20 +49,7 @@ function HeroSection({ profile }) {
             >
               <FaFacebook size={24} />
             </Link>
-            <Link
-              href={userData.leetcode}
-              target='_blank'
-              className="transition-all text-teal-500 hover:scale-125 duration-300"
-            >
-              <SiLeetcode size={24} />
-            </Link>
-            <Link
-              href={userData.twitter}
-              target='_blank'
-              className="transition-all text-teal-500 hover:scale-125 duration-300"
-            >
-              <FaTwitterSquare size={24} />
-            </Link>
+           
           </div>
 
           <div className="w-full justify-center flex items-center gap-3 mt-6">
