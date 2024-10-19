@@ -6,7 +6,7 @@
 
 # Demo :movie_camera:
 
-![httpsgithub abusaid me](https://github.com/parves2023/portfolio/assets/77630868/a331f996-1b4d-451a-941f-a15f5ae6de93)
+![httpsgithub abusaid me](https://github.com/parves2023/portfolio/blob/main/public/image.png)
 
 
 ## View live preview [here](https://anamulhauqe.netlify.app/)
