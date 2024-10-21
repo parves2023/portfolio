@@ -4,6 +4,7 @@ import HeroSection from "./components/hero-section";
 import Projects from "./components/projects";
 import PitchforkKickstarterTaxidermy from "./components/newRAnk/PitchforkKickstarterTaxidermy";
 import RawDenimHeirloomManBraid from "./components/RawDenimHeirloomManBraid/RawDenimHeirloomManBraid";
+import ContactSection from "./components/ContactSection/ContactSection";
 
 
 async function getGitProfile() {
@@ -38,6 +39,7 @@ export default async function Home() {
         profile={profile}
       />
       <RawDenimHeirloomManBraid></RawDenimHeirloomManBraid>
+      <ContactSection></ContactSection>
       
       
       <Contributions />
